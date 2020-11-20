@@ -4,7 +4,7 @@
         <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon.min.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
-        <link href="styles.css" rel="stylesheet" />
+
     </head>
     <body>
        <div class="page-wrapper with-navbar">
@@ -21,20 +21,25 @@
                             <a class="nav-link" href="#projects">Projects</a>
                         </li>
                     </ul>
+                    <div 
                 </div>
             </nav>
 
             <div class="content-wrapper">
                 <div class="container-md">
-                    <div class="row">
+                    <div id="about" class="row">
                         <div id="about" class="content">
                             <div class="content">
-                                <h1 class="content-title">Hot damn, it's <blink>Ruarri</blink></h1>
+                                <h1 class="content-title">Hot damn, it's Ruarri</h1>
+                                <p>I am a web developer for almost 10 years, both as a freelancer and staff developer. I have been the Web Developer-turned-Tech Manager at the Surfrider Foundation since 2014.</p>
+                                <p>I was self-taught from the early days. One day, my dad dropped on my lap a manual he printed at home  – sort of a "how to" for HTML – and said "Here, make it so your grandmother can see our photos." 
+                                    Our ISP gave us a few whole megabytes(!) of storage, and with lots of <code class="code">&lt;p&gt;</code> and <code class="code">&lt;br /&gt;</code>tags, and some <code class="code">&lt;center&gt;</code> and <code class="code">&lt;img&gt;</code>, I was off to the races.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-9">
+                    <div id="projects" class="row">
+                        <div class="col-12 col-md-6">
                             <div id="surfrider" class="card p-0">
                                 <a href="https://www.surfrider.org" target="_blank" rel="noopener noreferrer"><img src="./images/surfrider_home.jpg" class="img-fluid" /></a>
                                 <div class="content">
@@ -48,30 +53,46 @@
                                 </div>
                                 <hr />
                                 <div class="content">
-                                    <p>
-                                        The new website was designed by an outside agency, but largely developed by me in-house to reduce costs associated with the project. 
-                                        Frontend frameworks were dispensed with to allow for a more bespoke look. Only a few external libraries were used throughout the site.
-                                    </p>
-                                    <p> 
-                                        The frontend assets were built in SCSS, with the Block Element Modifier methodology. In addition to the standard HTML elements, there are about 20 design elements used in multiple ways throughout the site.
-                                    </p>
-                                    <p>
-                                        The site is built within ExpressionEngine, which features a web IDE, but all changes are made locally, packaged, and deployed through Git.
-                                    </p>
+                                    <h3 class="content-title">Key Technologies</h3>
+                                   <p>
+                                        <span class="badge">ExpressionEngine</span>
+                                        <span class="badge">Javascript</span>
+                                        <span class="badge">PHP</span>
+                                        <span class="badge">HTML</span>
+                                        <span class="badge">d3.js</span>
+                                        <span class="badge">Webpack</span>
+                                   </p> 
+                                </div>
+                                <hr />
+                                <div class="content">
+                                    <details class="collapse-panel mw-full">
+                                        <summary class="collapse-header">
+                                            Project Description
+                                        </summary>
+                                        <div class="collapse-content">
+                                            <p>
+                                                The new website was designed by an outside agency, but largely developed by me in-house to reduce costs associated with the project. 
+                                                Frontend frameworks were dispensed with to allow for a more design flexibility. Only a few external libraries were used throughout the site.
+                                            </p>
+                                            <p> 
+                                                The frontend assets were built in SCSS, with the Block Element Modifier methodology. In addition to the standard HTML elements, there are about 20 design elements used in multiple ways throughout the site.
+                                            </p>
+                                            <p>
+                                                The site is built within ExpressionEngine, which features a web IDE, but all changes are made locally, packaged, and deployed through Git.
+                                            </p>
+                                        </div>
+                                      </details>
+                                    
                                 </div>
                             </div>
-                            <div class="content">
-                                <p>
-                                    The new website was designed by an outside agency, but largely developed by me in-house to reduce costs associated with the project. 
-                                        Frontend frameworks were dispensed with to allow for a more bespoke look. Only a few external libraries were used throughout the site.
-                                </p>
-                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
                             <div id="bwtf" class="card p-0">
-                                <a href="https://bwtf.surfrider.org" target="_blank" rel="noopener noreferrer"><img src="./images/bwtf.png" class="img-fluid" /></a>
+                                <a href="https://bwtf.surfrider.org/explore" target="_blank" rel="noopener noreferrer"><img src="./images/bwtf.png" class="img-fluid" /></a>
                                 <div class="content">
                                     <h2 class="content-title">Blue Water Task Force </h2>
                                     <p class="text-muted">
-                                        Progressive Web App to display national recreational water quality data
+                                        Progressive Web App to display recreational water quality data
                                       </p>
                                     <span class="text-muted">
                                         <i class="material-icons">calendar_today</i> Jan, 2020
@@ -79,65 +100,132 @@
                                 </div>
                                 <hr />
                                 <div class="content">
+                                    <h3 class="content-title">Key Technologies</h3>
                                     <p>
-                                        I designed the frontend of the new platform based around the brand aesthetic at the time. 
+                                         <span class="badge">Javascript</span>
+                                         <span class="badge">GraphQL</span>
+                                         <span class="badge">d3.js</span>
+                                         <span class="badge">HTML</span>
+                                         <span class="badge">Progressive Web App</span>
+                                         <span class="badge">Web Components</span>
+                                         <span class="badge">AWS Amplify</span>
+                                         <span class="badge">NoSQL</span>
                                     </p>
                                 </div>
+                                <hr />
+                                <div class="content">
+                                    <details class="collapse-panel mw-full">
+                                        <summary class="collapse-header">
+                                            Project Description
+                                        </summary>
+                                        <div class="collapse-content">
+                                            <p>This was a full frontend and backend project. The previous website had not been modified in over 5 years, so this was a full tear-down-and-rebuild.</p>
+                                            <p> The look of the platform based around the brand aesthetic at the time. It makes heavy use of Web Components with a custom CSS theme. One of the goals was to make it useable from a mobile device, and 
+                                                the platform is able to be installed as a Progressive Web App 
+                                            </p>
+                                            <p>The backend environment is powered by AWS DynamoDB (NoSQL), with an AWS Appsync API (GraphQL). It is a full CRUD application for multiple models / datatypes.</p>
+                                        </div>
+                                      </details>
+
+                                </div>
                             </div>
-                
-                            <div class="card p-0">
-                                <a href="https://bwtf.surfrider.org" target="_blank" rel="noopener noreferrer"><img src="./images/one-ocean-preview.jpg" class="img-fluid" /></a>
+                        </div> 
+                        <div class="col-12 col-md-6">
+                            <div id="landing" class="card p-0">
+                                <a href="https://web.archive.org/web/20201022082936/https://www.surfrider.org/one-ocean-event" target="_blank" rel="noopener noreferrer"><img src="./images/one-ocean-preview.jpg" class="img-fluid" /></a>
                                 <div class="content">
                                     <h2 class="content-title">Marketing landing pages</h2>
                                     <p class="text-muted">
-                                        Progressive Web App to display national recreational water quality data
+                                        Progressive Web App to display recreational water quality data
                                       </p>
                                 </div>
                                 <hr />
                                 <div class="content">
-                                    <p>
-                                        I designed the frontend of the new platform based around the brand aesthetic at the time. 
-                                    </p>
+                                    <h3 class="content-title">Key Technologies</h3>
+                                   <p>
+                                        <span class="badge">ExpressionEngine</span>
+                                        <span class="badge">Javascript</span>
+                                        <span class="badge">PHP</span>
+                                        <span class="badge">HTML</span>
+                                        <span class="badge">API</span>
+                                   </p> 
+                                </div>
+                                <hr>
+                                <div class="content">
+                                    <details class="collapse-panel mw-full">
+                                        <summary class="collapse-header">
+                                            Pages built to spec
+                                        </summary>
+                                        <div class="collapse-content">
+                                            <div class="d-flex flex-column">
+                                                <a href="https://web.archive.org/web/20201022082936/https://www.surfrider.org/one-ocean-event" target="_blank" rel="noopener noreferrer">Gala Event</a>
+                                                <a href="https://www.surfrider.org/usoa" target="_blank" rel="noopener noreferrer">Marketing Campaign</a>
+                                                <a href="https://www.surfrider.org/support-surfrider" target="_blank" rel="noopener noreferrer">Fundraising</a>
+                                            </div>
+                                                
+                                        </div>
+                                      </details>
                                 </div>
                             </div>
-                       
-                            <div class="card p-0">
+                            
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div id="demo" class="card p-0">
                                 <a href="https://demo.surfrider.org" target="_blank" rel="noopener noreferrer"><img src="./images/chapters.jpg" class="img-fluid" /></a>
                                 <div class="content">
                                     <h2 class="content-title">Surfrider Chapter Network</h2>
                                     <p class="text-muted">
                                         Wordpress theme provided to chapters in Surfrider's national network. 
                                       </p>
-                                    
                                 </div>
                                 <hr />
                                 <div class="content">
+                                    <h3 class="content-title">Key Technologies</h3>
                                     <p>
-                                        The new website was designed by an outside agency, but largely developed by me in-house to reduce costs associated with the project. 
-                                        Frontend frameworks were dispensed with to allow for a more bespoke look. Only a few external libraries were used throughout the site.
-                                    </p>
-                                    <p> 
-                                        The frontend assets were built in SCSS, with the Block Element Modifier methodology. In addition to the standard HTML elements, there are about 20 design elements used in multiple ways throughout the site.
-                                    </p>
-                                    <p>
-                                        The site is built within ExpressionEngine, which features a web IDE, but all changes are made locally, packaged, and deployed through Git.
-                                    </p>
+                                        <span class="badge">Wordpress</span>
+                                        <span class="badge">PHP</span>
+                                        <span class="badge">HTML</span>
+                                        <span class="badge">API</span>
+                                   </p> 
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="position-sticky otp">
-                                <h4 class="content-title font-size-16 mb-5">Examples on this page:</h4>
-
-                                <div class="d-flex flex-column border-left pl-10">
-                                    <a href="#surfrider">Surfrider Foundation Home</a>
-                                    <a href="#bwtf">Blue Water Task Force</a>
-                                    <a href="#landing">Landing Pages</a>
-                                    <a href="#demo">Wordpress Theme</a>
+                                <hr>
+                                <div class="content">
+                                    <details class="collapse-panel mw-full">
+                                        <summary class="collapse-header">
+                                            Project Description
+                                        </summary>
+                                        <div class="collapse-content">
+                                            <p>
+                                                I designed the frontend of the new platform based around the brand aesthetic at the time. 
+                                            </p>
+                                            <p>
+                                                The frontend assets were built around the Bootstrap grid, included Widgets and Shortcodes that allowed for flexible page designs for volunteer admins
+                                            </p>
+                                            <p>
+                                                The theme also provides integrations with other systems, including Salesforce, DynamoDB, and other backends.
+                                            </p>
+                                        </div>
+                                      </details>
                                 </div>
                             </div>
                             
                         </div>
+                        <!-- <div class="col-12 col-md-3">
+                            <div class="content">
+                                <div class="position-sticky otp">
+                                    <h4 class="content-title font-size-16 mb-5">Examples on this page:</h4>
+    
+                                    <div class="d-flex flex-column border-left pl-10">
+                                        <a href="#surfrider">Surfrider Foundation Home</a>
+                                        <a href="#bwtf">Blue Water Task Force</a>
+                                        <a href="#landing">Landing Pages</a>
+                                        <a href="#demo">Wordpress Theme</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div> -->
                     </div>
                     
                 </div>
